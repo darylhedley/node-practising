@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1 A list of data here please
+  p= body
+  each user in users
+    p= user.name
